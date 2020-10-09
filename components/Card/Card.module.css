@@ -1,0 +1,43 @@
+.card {
+  position: relative;
+  width: 350px;
+  height: 228px;
+  background: var(--white);
+  border-radius: 6px;
+  padding: 50px 20px 40px;
+}
+
+.logoContainer {
+  position: absolute;
+  top: -25px;
+  left: 25px;
+  border-radius: 6px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: darkblue;
+}
+
+.logo {
+  position: relative;
+  max-width: 30px;
+}
+
+.info {
+  display: flex;
+  color: var(--gray);
+}
+
+.title {
+  --h1: var(--h3);
+}
+
+.card:hover .title {
+  color: var(--gray);
+}
+
+.card h4 {
+  color: var(--violet);
+}

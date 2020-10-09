@@ -14,3 +14,61 @@ a {
 * {
   box-sizing: border-box;
 }
+
+:root {
+  --violet: #5964e0;
+  --lightViolet: #939bf4;
+  --veryDarkBlue: #19202d;
+  --midnight: #121721;
+  --white: #fff;
+  --lightGrey: #f4f6f8;
+  --gray: #9daec2;
+  --darkGrey: #6e8098;
+
+  --fontFamily: "Kumbh Sans", sans-serif;
+
+  --h1: 28px;
+  --h1L: 34px;
+  --h2: 24px;
+  --h2L: 29px;
+  --h3: 20px;
+  --h3L: 24px;
+  --h4: 14px;
+  --h4L: 18px;
+  --p: 16px;
+  --pL: 26px;
+}
+
+body {
+  font-family: var(--fontFamily);
+  background: var(--lightGrey);
+}
+
+h1 {
+  font-size: var(--h1);
+  line-height: var(--h1L);
+}
+
+h2 {
+  font-size: var(--h2);
+  line-height: var(--h1L);
+}
+
+h3 {
+  font-size: var(--h3);
+  line-height: var(--h1L);
+}
+
+h4 {
+  font-size: var(--h4);
+  line-height: var(--h1L);
+}
+
+button {
+  background-color: var(--lightViolet);
+  border: none;
+  padding: 10px 30px;
+  font-weight: bold;
+  color: var(--white);
+  border-radius: 5px;
+}
